@@ -8,6 +8,6 @@ public class Task6 {
         int y = -1;
         boolean bool;
         bool = ((-2 <= x && x <= 2) && (y >= 0 && y <= 4)) || (x >= -4 && x <= 4 && y <= 0 && y >= -3 && y != -1);
-        System.out.println("("+x+", "+y+") - "+bool);
+        System.out.println("("+x+", "+y+") - "+ bool);
     }
 }
